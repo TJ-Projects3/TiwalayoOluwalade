@@ -1,0 +1,69 @@
+body {
+    margin-top: 20px;
+    background-image: radial-gradient(rgb(48, 46, 46),rgb(36, 36, 36) 35%);
+}
+
+.al2 {
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 34px;
+    margin: 4px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    background: transparent;
+    position: relative;
+    transition: .5s;
+    font-family: 'Poppins';
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(170, 240, 156);
+}
+
+.al2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    text-emphasis-color: black;
+    z-index: -1;
+    transform: scale(0.3);
+    transition: .5s;
+    visibility: hidden;
+    border-radius: 20px;
+}
+
+.al2:hover {
+    color: #fff;
+}
+
+.al2:hover:before {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+.special-sauce2 {
+    color:rgb(170, 240, 156);
+    font-family: "Poppins";
+    text-align: center;
+    margin: 50px;
+}
+
+.push-down-proj {
+    margin-top: 125px;
+}
+
+margin-box {
+    margin-top: 100px
+}
+
+.a-link {
+    display: block;
+    margin: 0;
+    margin-bottom: 20px;
+}
